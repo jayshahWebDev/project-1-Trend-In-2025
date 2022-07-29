@@ -1,6 +1,7 @@
 # Hey, there everyone `Jay Shah` here
 
 ## [Live Project Demo]('https://trend-in-2025.netlify.app/')
+
 <br>
 <br>
 
