@@ -1,160 +1,159 @@
-.navbar-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 5%;
-    height: 15vh;
-    align-items: center;
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 5%;
+  height: 15vh;
+  align-items: center;
 }
 
-.list{
-    display: flex;
-    list-style-type: none;
+.list {
+  display: flex;
+  list-style-type: none;
 }
 
-.list .list-item{
-    font-size: 20px;
-    padding: 0 25px;
-    font-family: "Orbitron", sans-serif;
-    font-weight: 500;
+.list .list-item {
+  font-size: 20px;
+  padding: 0 25px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
 }
 
-.list .list-item:hover{
-    font-size: 23px;
-    font-weight: 700;
-    text-decoration: underline;
+.list .list-item:hover {
+  font-size: 23px;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
-.button-group{
-    display: flex;
-    flex-direction: row;
+.button-group {
+  display: flex;
+  flex-direction: row;
 }
 
-.nav-button{
-    border: 2px solid #000000;
-    border-radius: 10px;
-    background-color: #ffffff;
-    text-align: center;
-    padding: 3px 45px;
-    font-family: "Poppins", sans-serif;
-    font-size: 23px;
-    font-weight: 400;
-    color: #808080;
+.nav-button {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 3px 45px;
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  color: #808080;
 }
 
 .search-icon {
-    margin-right: 15px;
-    height: 20px;
+  margin-right: 15px;
+  height: 20px;
 }
 
-.hero-container > div > img{
-    position: absolute;
-    height: 550px;
-    left: 5%;
-    bottom: 14%;
+.hero-container > div > img {
+  position: absolute;
+  height: 550px;
+  left: 5%;
+  bottom: 14%;
 }
-.square{
-    position: absolute;
-    bottom: 20%;
-    left: 12%;
-    height: 300px;
-}
-
-.hero-container-right{
-    position: absolute;
-    left: 40%;
-    right: 5%;
-    top: 25%;
+.square {
+  position: absolute;
+  bottom: 20%;
+  left: 12%;
+  height: 300px;
 }
 
-.hero-heading{
+.hero-container-right {
+  position: absolute;
+  left: 40%;
+  right: 5%;
+  top: 25%;
+}
+
+.hero-heading {
   font-size: 65px;
   text-align: center;
   font-family: "Orbitron", sans-serif;
   font-weight: 600;
 }
 
-.hero-description{
-    font-size: 15px;
-    margin: 0 14%;
-    text-align: center;
-    font-family:"Poppins", sans-serif ;
-    font-weight: 500;
-    color: #808080;
+.hero-description {
+  font-size: 15px;
+  margin: 0 14%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #808080;
 }
 
-.button-email{
-    margin-top: 12%;
-    margin-left: 30%;
-    padding: 3px 25px;
-    text-decoration: none;
-    background-color: #ffffff;
-    color: #808080;
-    font-family: "Orbitron", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 10px;
+.button-email {
+  margin-top: 12%;
+  margin-left: 30%;
+  padding: 3px 25px;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #808080;
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 10px;
 }
 
-.button-join{
-    text-decoration: none;
-    background-color: #000000;
-    color: #ffffff;
-    font-size: 20px;
-    font-family: "Orbitron", sans-serif;
-    font-weight: 500;
-    border-radius: 10px;
-    margin-left: 10px;
+.button-join {
+  text-decoration: none;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  border-radius: 10px;
+  margin-left: 10px;
 }
 
-.contact-heading{
-    text-align: center;
-    font-size: 20px;
-    margin-top: 10%;
-    font-family:"Poppins", sans-serif ;
-    font-weight: 500;
-    color: #808080;
+.contact-heading {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #808080;
 }
 
-.icons{
-    position: absolute;
-    left: 38%;
-    bottom: -5%;
-    
+.icons {
+  position: absolute;
+  left: 38%;
+  bottom: -5%;
 }
 
-.icons > span > img{
-    height: 35px;
-    padding: 0 5px;
+.icons > span > img {
+  height: 35px;
+  padding: 0 5px;
 }
 
-.globe{
-    position: absolute;
-    top: 15%;
-    right: 42%;
+.globe {
+  position: absolute;
+  top: 15%;
+  right: 42%;
 }
 
-.globe > img{
-    height: 60px;
-    top: 25%;
+.globe > img {
+  height: 60px;
+  top: 25%;
 }
 
-.star{
-    position: absolute;
-    top: 22%;
-    right: 8%;
+.star {
+  position: absolute;
+  top: 22%;
+  right: 8%;
 }
 
-.star > img{
-    height: 60px;
+.star > img {
+  height: 60px;
 }
 
-.starTwo{
-    position: absolute;
-    left: 45%;
-    bottom: 10%;
+.starTwo {
+  position: absolute;
+  left: 45%;
+  bottom: 10%;
 }
 
-.starTwo > img{
-    height: 50px;
+.starTwo > img {
+  height: 50px;
 }
